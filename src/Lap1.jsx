@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 class Person extends Component {
   constructor() {
     super()
@@ -12,7 +13,9 @@ class Person extends Component {
     const { name, age } = this.state
     return (
       <>
-        <div>Hello, my name is {name} and I am {age} years old.</div>
+        <div className='hello'>
+          Hello, my name is {name} and I am {age} years old.
+          </div>
       </>
     )
   }
