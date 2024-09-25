@@ -1,12 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import Person from './Lap1.jsx';
-// import Test from 'Test.jsx';
-
+import HeaderComponent from './components/HeaderComponents';
+import BannerComponent from './components/Banner';
+import MenuComponent from './components/MenuCompontent';
+import FormComponent from './components/Form';
 
 function App() {
   return (
-    <Person/>
+    <>
+
+    <HeaderComponent></HeaderComponent>
+    
+    <BannerComponent></BannerComponent>
+
+    <MenuComponent></MenuComponent>
+
+    <FormComponent></FormComponent>
+    </>
   );
 }
 
