@@ -70,7 +70,7 @@ const App = () => {
       </div>
 
       {/* Display CardList and pass handleAddToCart to handle purchases */}
-      <Row className="justify-content-center card-list-section">
+      <Row className="justify-content-center card-list-section bg-black text-white">
         {/* Tiêu đề "Our Menu" */}
         <h2 className="menu-title text-center mt-5 mb-4">Our Menu</h2>
         <CardList

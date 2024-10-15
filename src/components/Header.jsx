@@ -86,7 +86,8 @@ const Header = ({ handleShow, count }) => {
       <LoginModal show={showLogin} handleClose={handleLoginClose} setLoggedIn={setLoggedIn} />
 
       {/* Toast Container để hiển thị thông báo */}
-      <ToastContainer />
+      <ToastContainer />    
+            
     </>
   );
 };
