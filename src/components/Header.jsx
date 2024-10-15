@@ -25,7 +25,7 @@ const Header = ({ handleShow, count }) => {
 
   const handleLogout = () => {
     setLoggedIn(false);
-    toast.success("Đã đăng xuất!");
+    // toast.success("Đã đăng xuất!");
   };
 
   return (
