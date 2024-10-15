@@ -47,7 +47,7 @@ const LoginModal = ({ show, handleClose, setLoggedIn }) => {
       console.log("Login successful:", data);
 
       // Hiển thị thông báo thành công
-      toast.success("Đăng nhập thành công!");
+      // toast.success("Đăng nhập thành công!");
       
       // Set trạng thái đăng nhập thành true
       setLoggedIn(true);
@@ -55,7 +55,7 @@ const LoginModal = ({ show, handleClose, setLoggedIn }) => {
       handleClose(); // Đóng modal sau khi đăng nhập thành công
     } catch (err) {
       setError(err.message);
-      toast.error("Đăng nhập thất bại! Vui lòng kiểm tra lại.");
+      // toast.error("Đăng nhập thất bại! Vui lòng kiểm tra lại.");
     } finally {
       setLoading(false);
     }
